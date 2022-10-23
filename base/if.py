@@ -43,3 +43,9 @@ else:
 and 和 or 的优先级 低于 >（大于）、<（小于）等判断符号，
 即大于和小于在没有括号的情况下会比与或要优先判断
 """
+# 判断值是否在0~5或者10~15之间
+if (num >= 0 and num <= 5) or (num >= 10 and num <= 15):
+    print('hello')
+else:
+    print('undefine')
+# 输出结果: undefine
