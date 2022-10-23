@@ -49,3 +49,11 @@ if (num >= 0 and num <= 5) or (num >= 10 and num <= 15):
 else:
     print('undefine')
 # 输出结果: undefine
+
+# 判断文件是否存在
+import os
+file=input("输入文件名：")
+if os.path.exists(file):
+    print(file,"exists")
+else:
+    print(file,"not exists")
