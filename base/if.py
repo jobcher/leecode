@@ -11,7 +11,7 @@ flag = False
 name = input("输入name：")
 # 判断输入是否是python
 if name == 'python':
-    flag=True
+    flag = True
     print(r"this is 'if' python func")
 else:
     print(name)
@@ -32,9 +32,9 @@ if num < 10:
 elif num == 11:
     print("==11")
 elif num >= 20:
-    print (">=20")
+    print(">=20")
 else:
-    print ("error 12-19")
+    print("error 12-19")
 
 # 多条件判断
 """
@@ -51,6 +51,9 @@ else:
 # 输出结果: undefine
 
 # 判断文件是否存在
+"""
+判断语句的具体应用
+"""
 import os
 file=input("输入文件名：")
 if os.path.exists(file):
